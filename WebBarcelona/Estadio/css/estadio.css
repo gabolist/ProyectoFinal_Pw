@@ -1,0 +1,28 @@
+h1,h3,a{
+	color: white; font-family: "Century Gothic";text-align: center;
+}
+ 
+a,li.nounderline:link   
+{   
+ text-decoration:none;   
+}
+
+p{
+	color:black; font-family:"Arial Black";
+}
+
+#menu li { margin: 0px 0.6px; padding: 0.5em 0.5em 0.5em 1em; 
+        	background: -webkit-linear-gradient(black, #BABA00);
+   			background: -moz-linear-gradient(black, #BABA00);
+   			background: -o-linear-gradient(black, #BABA00);
+    		width: 15%; float:left ;
+           	list-style-type:none ; position: relative; }
+
+
+#menu li:hover { background-color: #656464; }
+#menu li a:link, #navegador li a:visited { 
+           color: white; text-decoration: none; }
+#menu li a:hover, #navegador li a:active { 
+           color:red ; text-decoration:blink ; }
+.borrar { clear: both; }	
+

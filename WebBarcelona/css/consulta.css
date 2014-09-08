@@ -1,0 +1,20 @@
+
+
+table{
+	background: gray;
+	width: 1030px;
+	color:white;
+}
+#consulta{
+		
+	
+	top:20px;
+	left:150px;
+	
+	
+	position:absolute;
+	width: 700px;
+	height:120px;
+	border-radius:10px;
+
+}

@@ -1,0 +1,14 @@
+h1{
+	color: yellow; font-family: "Century Gothic";text-align: center;
+}
+ 
+a,li.nounderline:link   
+{   
+ text-decoration:none;   
+}
+
+p,h4,li,h5{
+   color:white; text-align: justify ; font-family:"Arial";
+}
+
+
