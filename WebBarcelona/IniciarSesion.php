@@ -2,7 +2,8 @@
 require 'conexion.php';
 if($_SERVER['REQUEST_METHOD']=='POST'){
 	$user = $_POST['txtUsuario'];
-
+	$pass = $_POST['txt_Contrasena'];
+	
 	$SQL="insert into usuario(usua) values ('$user')";
 	$rs=mysql_query($SQL);
 	if($rs){
@@ -44,17 +45,14 @@ Ingresa tu usuario y contraseña.
 <br />
 
 	<div id="btnEntrar">
-		<input  class="btnEntrar" type="submit" value="Entrar" >
+		<input  class="btnEntrar" 	type="submit"   value="Entrar" >
 	</div>
 </div>
 
 </div>
 	</form>
 </body>
-	
-	
-	
-	
+
 	
 	
 	
